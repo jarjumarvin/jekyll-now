@@ -77,23 +77,6 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
-# include these files from your production _site
-include:
-  - /static/fontawesome/webfonts/fa-brands-400.eot
-  - /static/fontawesome/webfonts/fa-brands-400.svg
-  - /static/fontawesome/webfonts/fa-brands-400.ttf
-  - /static/fontawesome/webfonts/fa-brands-400.woff
-  - /static/fontawesome/webfonts/fa-brands-400.woff2
-  - /static/fontawesome/webfonts/fa-regular-400.eot
-  - /static/fontawesome/webfonts/fa-regular-400.svg
-  - /static/fontawesome/webfonts/fa-regular-400.ttf
-  - /static/fontawesome/webfonts/fa-regular-400.woff
-  - /static/fontawesome/webfonts/fa-regular-400.woff2
-  - /static/fontawesome/webfonts/fa-solid-900.eot
-  - /static/fontawesome/webfonts/fa-solid-900.svg
-  - /static/fontawesome/webfonts/fa-solid-900.ttf
-  - /static/fontawesome/webfonts/fa-solid-900.woff
-  - /static/fontawesome/webfonts/fa-solid-900.woff2
 # Exclude these files from your production _site
 exclude:
   - Gemfile

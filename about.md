@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Marvin, 20 years
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Born and raised in Switzerland, been a developer for a couple of years!
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[marvin.jarju@gmail.com](mailto:marvin.jarju@gmail.com)
+[@jarjumarvin](mailto:https://twitter.com/jarjumarvin)

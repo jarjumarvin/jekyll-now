@@ -77,8 +77,10 @@ a {
   }
 }
 
-.site-links, a {
-    color: #333;
+.site-links {
+    a {
+        color: #333;
+    }
 }
 
 ul, ol {

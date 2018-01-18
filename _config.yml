@@ -9,7 +9,7 @@ name: Marvin Jarju
 description: 20 year old developer from Switzerland
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/jarjumarvin/jarjumarvin.github.io/blob/master/images/taegeukki.png
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
 # Flags below are optional
@@ -18,7 +18,7 @@ avatar: https://github.com/jarjumarvin/jarjumarvin.github.io/blob/master/images/
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:marvin.jarju@gmail.com 
+  email: marvin.jarju@gmail.com 
   facebook:
   flickr:
   github: jarjumarvin

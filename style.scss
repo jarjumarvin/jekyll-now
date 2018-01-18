@@ -45,22 +45,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.75em;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.4em;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.1em;
   color: $gray;
 }
 
@@ -118,6 +118,27 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  opacity: 0.75;
+  font-size: 0.85em;
+}
+
+// Margin after Entry
+.entry {
+    margin-bottom: 1.5em;
+}
+
+.site-links {
+    margin: 0;
+}
+
+.social-icons {
+    opacity: 0.75;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.social-icons:hover {
+    opacity: 1;
 }
 
 // Specify the color of the selection
@@ -156,7 +177,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  //border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -176,7 +197,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 50em;
   }
 }
 
@@ -266,7 +287,7 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
+    //text-transform: uppercase;
     font-size: 15px;
   }
 }
@@ -287,3 +308,4 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import "icons";

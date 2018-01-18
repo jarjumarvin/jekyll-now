@@ -15,21 +15,12 @@
 
 html {
   font-size: 100%;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
 }
 
 body {
-    position: relative;
-    background: $white;
-    font: 18px/1.4 $helvetica;
-    color: $darkGray;
+	background: $white;
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;
 }
 
 .container {
@@ -308,11 +299,10 @@ nav {
 }
 
 .wrapper-footer {
-    position: absolute;
-    margin-top: 50px;
-    border-top: 1px solid #ddd;
-    //border-bottom: 1px solid #ddd;
-    background-color: $lightGray;
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
 }
 
 footer {

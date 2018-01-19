@@ -91,7 +91,7 @@ The line the perceptron comes up with to seperate the two sets is called the **d
 
 # Conclusion
 
-As you can see, even a single perceptron can solve problems that were thought to be unsovable by machines for a very long time.
+As you can see, even a single perceptron can solve problems that were thought to be unsolvable by machines for a very long time.
 Next time, we will be implementing a perceptron to solve a classification problem like the one above!
 
 See you then and thank you for reading~

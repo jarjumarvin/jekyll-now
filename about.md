@@ -1,14 +1,9 @@
 ---
 layout: page
-title: About
+title: Hey, I'm Marvin.
 permalink: /about/
 ---
 
-Marvin, 20 years
+I'm a full stack Mobile / Web developer based in Switzerland.
 
-Born and raised in Switzerland, been a developer for a couple of years!
-
-### Contact me
-[marvin.jarju@gmail.com](mailto:marvin.jarju@gmail.com)
-
-[@jarjumarvin](mailto:https://twitter.com/jarjumarvin)
+I know my way around numerous tools but I mostly work with SQL, Java, Node.Js & Python for backend, and Kotlin, HTML, CSS and Sass for frontend / mobile development.

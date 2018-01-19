@@ -21,12 +21,14 @@ That being said there's still quite a lot of time until then so let's move on to
   <img src="{{ "/images/neuron.png"}}" alt="Image of a Neuron"/>
 </p>
 
-The biological Neuron is a cell that receives, processes and transmits information. It can generally be broken down into four major parts:
+Let's consider the biological Neuron. It is a cell that receives, processes and transmits information. It can generally be broken down into four major parts:
 
 * **Dendrites** receive signals from another neuron
 * The **cell body** processes all incoming signals and fires a signal once a certain threshold value is reached
 * The **axon** guides the signal towards the dendrites of other neurons
 * **Synapses** connect two neurons and transmits the signal from neuron #1 to neuron #2
+
+Neurons exhibit an **all-or-nothing** behaviour. They either fire a signal, or they don't. Hence, their output is binary. In the case of a signal being fired, it travels along the axon to the synapses, where it is transmitted to the next neuron down the line.
 
 These connections between two neurons are **weighed**. The strength of a signal transmitted through any synapse is dependent on the [**synaptic potential**](https://en.wikipedia.org/wiki/Synaptic_potential). Such a weighed connection can either decrease the transmitted signals strenght, or increase it.
 

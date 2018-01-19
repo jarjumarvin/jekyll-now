@@ -69,7 +69,7 @@ This functions value is either 0 for negative arguments and 1 for positive argum
 In general, a simple perceptron can be written as a mathematical function that maps it's input $\vec{x}$, a vector, to it's output $y$, a binary value.
 
 $$
-	y(\vec{x}) =\varphi\left(\sum\limits_{i=0}^n\omega_ix_i + b\right)
+	y(\vec{x}) =\varphi\left(\sum\limits_{i=0}^n\omega_ix_i + b\right) = \varphi\left(W^T+b\right)
 $$
 
 where $\vec{\omega}$ are the weights to each input, $\varphi$ is the activation function, and $b$ is the bias

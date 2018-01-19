@@ -92,6 +92,6 @@ The line the perceptron comes up with to seperate the two sets is called the **d
 # Conclusion
 
 As you can see, even a single perceptron can solve problems that were thought to be unsovable by machines for a very long time.
-Next time, we will talk about the way these artificial neurons are connected and joined together to form an artificial neural network.
+Next time, we will be implementing a perceptron to solve a classification problem!
 
 See you then and thank you for reading~

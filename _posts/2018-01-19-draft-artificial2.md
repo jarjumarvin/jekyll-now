@@ -1,5 +1,5 @@
 ---
 layout: blog
 published: false
-title: draft_post2
+title: artificial2draft
 ---

@@ -62,7 +62,7 @@ $$
 	H[n] :=  \left\{\begin{matrix} 0, & n<0, \\ 1, & n>0 \\ \end{matrix}\right.
 $$
 
-This functions value is either 0 for negative arguments and 1 for positive arguments. A neuron with an activation function like this is called a **perceptron**. The first implementation of such an algorithm dates back to the 1950s.
+This functions value is either 0 for negative arguments and 1 for positive arguments. A neuron with an activation function like this is called a [**perceptron**](https://en.wikipedia.org/wiki/Perceptron). The first implementation of such an algorithm dates back to the 1950s.
 
 In general, a simple perceptron can be written as a mathematical function that maps it's input $\vec{x}$, a vector, to it's output $y$, a binary value.
 
@@ -70,7 +70,7 @@ $$
 	y(\vec{x}) =\varphi\left(\sum\limits_{i=0}^n\omega_ix_i + b\right)
 $$
 
-where $\vec{\omega}$ are the weights to each input, $\varphi$ is the activation function (step function here), and $b$ is the bias
+where $\vec{\omega}$ are the weights to each input, $\varphi$ is the activation function, and $b$ is the bias
 
 $$
 	\vec{\omega} = \left[\begin{matrix}\omega_0\\\omega_1\\\vdots\\\omega_n\end{matrix}\right] 
@@ -79,19 +79,19 @@ $$
 
 In mathematical terms, the output of a neuron is equal to the output of the step function $\varphi$, given the sum of the dot product of the input / weight vectors and the bias as an input.
 
-It's simple to think that a single perceptron is no good on it's own, given that it can only output one of two values - 0 or 1. Yet there is a class of problems that even a single perceptron can solve:
+It's simple to think that a single perceptron is no good on it's own, given that it can only output one of two values - 0 or 1. Yet there is a class of problems that even a single perceptron can solve on it's own:
 
 <p align="center">
   <img width="480" height="360" src="{{ "/images/figure_scatterplot.png"}}" alt="Scatter Plot"/>
 </p>
 
-Imagine two sets of points, divided by a line. Such a set is **linearly seperable**. As such, a single perceptron can learn where that line is and after enough training correctly predict which set any given point P(x, y) belongs to. 
+Imagine two sets of points, divided by a line. Such a collection is **linearly seperable** by a line. As such, a single perceptron can learn where that line is and after enough training correctly predict which set any given point P(x, y) in the plane belongs to. 
 
-The line the perceptron comes up with to seperate the two sets is called the **decision boundary** and the **bias** mentioned above, allow the algorithm to shift that line along a direction.
+The line the perceptron comes up with to seperate the two sets is called the **decision boundary**. The **bias** mentioned above, allows the algorithm to shift that line along a direction. We will be talking about this in detail in the next post.
 
 # Conclusion
 
 As you can see, even a single perceptron can solve problems that were thought to be unsovable by machines for a very long time.
-Next time, we will be implementing a perceptron to solve a classification problem!
+Next time, we will be implementing a perceptron to solve a classification problem like the one above!
 
 See you then and thank you for reading~

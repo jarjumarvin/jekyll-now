@@ -92,7 +92,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'http://jarjumarvin.github.io/'
   relativeLinks: 'http://jarjumarvin.github.io/links.jsonp'
-  media: 'images'
+  media: '/images'
   ignore:
     - _config.yml
     - /_layouts

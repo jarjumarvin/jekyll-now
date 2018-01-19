@@ -34,7 +34,7 @@ These connections between two neurons are **weighed**. The strength of a signal 
 
 > Artificial Neural Networks or connectionist systems are computing systems inspired by the biological neural networks that constitute animal brains.
 
-Artificial Neural Networks **[ANN]** are systems derived from the human nervous systems. Their basic structure represents that of the nerve cells (neurons) which are present in the nervous systems of the human (animal) body.
+Artificial Neural Networks **[ANN]** are systems derived from the human (animal) nervous system. Their basic structure represents that of the nerve cells (neurons) which are present in the nervous systems of the human (animal) body.
 
 ## The Artificial Neuron
 
@@ -79,13 +79,13 @@ $$
 
 In mathematical terms, the output of a neuron is equal to the output of the step function $\varphi$, given the sum of the dot product of the input / weight vectors and the bias as an input.
 
-It's simple to think that a single perceptron is no good on it's own, given that it can only output one of two values - 0 or 1. Yet there is a class of problems that even a single perceptron can solve on it's own:
+It's simple to think that a single perceptron is no good on it's own, given that it can only output one of two values - 0 or 1. There is however a class of problems that even a single perceptron can solve on it's own:
 
 <p align="center">
   <img width="480" height="360" src="{{ "/images/figure_scatterplot.png"}}" alt="Scatter Plot"/>
 </p>
 
-Imagine two sets of points, divided by a line. Such a collection is **linearly seperable** by a line. As such, a single perceptron can learn where that line is and after enough training correctly predict which set any given point P(x, y) in the plane belongs to. 
+Imagine two sets of points, divided by a line. Such a collection is **linearly seperable** by a line. As such, a single perceptron can learn where that line is and after enough training correctly predict which set any given point P(x, y) in the plane belongs to. A problem like this is called a **classification problem**. It turns out, artificial neurons and neural networks are very efficient in solving them.
 
 The line the perceptron comes up with to seperate the two sets is called the **decision boundary**. The **bias** mentioned above, allows the algorithm to shift that line along a direction. We will be talking about this in detail in the next post.
 

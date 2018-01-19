@@ -79,7 +79,7 @@ $$
 $$
 
 
-In mathematical terms, the output of a neuron is equal to the output of the step function $\varphi$, given the sum of the dot product of the input / weight vectors and the bias as an input.
+In mathematical terms, the output of a neuron is equal to the output of the step function $\varphi$, given the sum of all the dot products $\vec{x}*\vec{|omega} of and the bias as an input.
 
 It's simple to think that a single perceptron is no good on it's own, given that it can only output one of two values - 0 or 1. There is however a class of problems that even a single perceptron can solve on it's own:
 
